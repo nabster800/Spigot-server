@@ -1,0 +1,58 @@
+# Global settings.
+Global:
+  Enabled: true
+  Notify: true
+  Color: gold
+  TextColor: white
+  SingleItemDrops: false
+  SingleItemKeeps: false
+  SlotBasedRecovery: false
+  UseTheOrMethod: true
+  Debug: false
+  Permissions: true
+  OpsAllPerms: false
+  WorldGuardPVPIgnore: false
+  WorldGuardPVPOnly: false
+  FactionEnemyDrops: false
+  DungeonMaze: false
+  OfflineMode: false
+  Residence: false
+  ResidenceFlag: noscv
+  LanguageFile: russian.yml
+  DropOnPVPDeath: false
+  RestoreDelayTicks: 10
+  BlackListWarn: false
+Messages:
+  MsgRecovered: Ваш инвентарь восстановлен.
+  MsgSaving: Ваш инвентарь будет сохранен.
+  MsgSaveForFee: Ваш инвентарь будет сохранен за небольшую плату %COST% %CURRENCY%.
+  MsgNotEnoughMoney: Восстановление инвентаря стоит %COST% %CURRENCY%, а у вас сейчас, к сожалению, %BALANCE% %CURRENCY%.
+  MsgInsidePA: Вы сейчас на PVP-арене %ARENA%. Ваш инвентарь не будет восстановлен.
+  MsgInsideBA: Вы находитесь внутри боевой арене. Scavenger не спасет ваш инвентарь.
+  MsgInsideMA: Вы сейчас на Моб-арене. Ваш инвентарь не будет восстановлен.
+  MsgInsideWGPVP: Вы сейчас в PVP регионе WorldGuard. Ваш инвентарь не будет восстановлен.
+  MsgInsideWGPVPOnly: Вы не в PVP регионе WorldGuard. Ваш инвентарь не будет восстановлен.
+  MsgInsideEnemyFaction: Ты погиб на вражеской территории. Ваши предметы будут отброшены!
+  MsgInsideDungeonMaze: Ты умер в DungeonMaze. Ваши предметы будут отброшены!
+  MsgHeader: Scavenger
+  MsgInsideRes: Этот комплекс не позволяет пункт выздоровления! Выкладывание вещей!
+  MsgPVPDeath: Убил другой игрок! Роняя предметы.
+  MsgBlacklistedWorld: Scavenger отключена в этом мире. Будьте осторожны.
+  MsgNoPerm: Вы не имеете права сделать это!
+Economy:
+  Enabled: false
+  Percent: false
+  RestoreCost: 10.0
+  MinCost: 5.0
+  MaxCost: 0
+  PercentCost: 5.0
+  AddMin: false
+  ChanceToDrop: 0
+  DepositType: none
+  DepositDestination: ''
+BlacklistedWorlds:
+- put_here_worlds
+- that_you_want_blacklisted
+BlacklistedWGRegions:
+- put_here_regions
+- that_you_want_blacklisted

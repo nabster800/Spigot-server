@@ -1,0 +1,125 @@
+groups:
+  default:
+    options:
+      default: true
+      prefix: '&8&l[&6&lИгрок&8&l] &2'
+      suffix: '&f'
+    permissions:
+    - modifyworld.*
+    - essentials.warp.list #Указывает можно ли посмотреть warp-список командой /warp.
+    - essentials.pay #Передать деньги другому игроку.
+    - essentials.balance #Проверить баланс игрока.
+    - essentials.kits.start #стартовы сет
+    - essentials.helpop #Задавать вопрос помощи онлайн игрокам
+    - essentials.spawn #Телепорт на спавн.
+    - essentials.tpaccept #Эта команда позволяет игроку положительно ответить на /tpa запрос
+    - essentials.ping #Pong
+    - essentials.clearinventory #Очистить инвентарь.
+    - essentials.rules #Посмотреть правила сервера.
+    - essentials.mail.send #Отправить сообщение игроку по почте.
+    - essentials.mail #Отправить сообщение игроку по почте.
+    - essentials.msg #Отправить личное сообщение игроку на сервере.
+    - essentials.motd #Показать сообщение дня.
+    - essentials.me
+    - essentials.list #Посмотреть онлайн сервера.
+    - essentials.help #Показывает меню помощи по командам сервера.
+    - essentials.afk #Отправляет сообщение в чат о том, что вы отошли.
+    - essentials.kit #Выдает игроку набор. Редактировать их можно в конфиге плагина.
+    - essentials.home #Телепорт домой.
+    - essentials.sethome #Задает местоположение вашего дома.
+    - essentials.warp #Warps you to a pre-set location.
+    - essentials.tpa #Спросить разрешение у игрока на телепорт к нему.
+    - essentials.call #Спросить разрешение у игрока на телепорт к нему.
+    - worldedit.selection.pos #Назначитьпозицию для выделения блок на котором вы стоите
+    - worldedit.selection.hpos #Назначить позицию для выделения блок на который вы смотрите
+    - worldedit.selection.expand #Увеличить выбранный регион в указанном направлении
+    - worldedit.selection.contract #Уменьшить выбранный регион в указанном направлении 
+    - worldedit.selection.shift #Переместить регион выбора на расстояние <amount> в направлении [direction].
+    - worldedit.wand #Получить предмет для выделения (деревянный топор по умолчанию)
+    - worldedit.wand.toggle #Вкл./откл. функциональность предмета для выделения
+    - worldguard.region.wand.*
+    - worldguard.region.list.own #Чтобы узнать информацию о регионе
+    - worldguard.region.info.own.* #Чтобы узнать информацию о регионе
+    - worldguard.region.claim #Сохраняем выделенный фрагмент участка
+    - worldguard.region.select.own.* #дает возможность владельцам выбирать свои регионы
+    - worldguard.region.select.member.* #позволяет участникам выбирать свои регионы
+    - worldguard.region.remove.own.* #Удаление региона
+    - worldguard.region.addowner.own.* #позволяет добавлять владельцев региона
+    - worldguard.region.removeowner.own.* #позволяет удалять владельцев региона
+    - worldguard.region.addmember.own.* #позволяет добавлять участников в регион
+    - worldguard.region.removemember.own.* #позволяет удалять участников в регион
+    - worldguard.region.flag.regions.own.* #Владельцы регионов могут ставить флаги.
+    - worldguard.region.flag.flags.pvp.* #Владельцы регионов могут ставить флаги на pvp
+    - worldguard.region.flag.flags.use.* #Владельцы регионов могут ставить флаги на use
+    - worldguard.region.flag.flags.chest-access.* #Владельцы регионов могут ставить доступ к сундуку.
+    - ChestShop.shop.*
+    - lift
+    - lwc.protect
+    - scavenger.scavenge
+  moder:
+    options:
+      default: false
+      prefix: '&8&l[&c&lМодератор&8&l] &2'
+      suffix: '&3'
+    inheritance:
+    - default
+    permissions:
+    - essentials.near #Посмотреть, какие игроки находятся рядом.
+    - essentials.repair #Починить инструмент, броню, зачарованный предмет.
+    - essentials.repair.enchanted #Починить инструмент, броню, зачарованный предмет.
+    - essentials.back #Вернуться игрока к последней позиции до использования телепорта.
+    - essentials.ignore #Игнорировать игрока.
+    - essentials.back.ondeath #Позволяет игрокам телепортироваться к месту их смерти
+    - essentials.workbench #Доступ к верстаку.
+    - essentials.feed #Утоляет голод.
+    - essentials.feed.others #Дает право утолить голод другим игрокам
+    - essentials.tpahere #эта команда будет посылать просьбу к игроку телепортироваться к вам
+    - essentials.kits.moder
+    - essentials.suicide #Совершить самоубийство.
+    - essentials.ptime #Позволяет устанавливать время персонально, каждому игроку.
+    - essentials.hat #Получить новые головные уборы.
+    - essentials.heal #Вылечить полностью здоровье выбранному игроку.
+    - essentials.fly #Разрешить полеты на сервере.
+    - essentials.god #Устанавливает игроку режим Бога.
+    - essentials.weather #Управление погодой на сервере.
+    - essentials.chat.*
+    - essentials.socialspy #Видеть приватные сообщения других игроков.
+    - essentials.enderchest.modify #Позволяет изменить содержимое Эндер сундука других игроков
+    - essentials.enderchest.others #Позволяет всем игрокам видеть содержимое Эндер сундука
+    - essentials.enderchest #Позволяет видеть внутри Эндер сундука.
+    - essentials.vanish #Скрыть присутствие игрока на сервере.
+    - essentials.vanish.see #Позволяет видеть игроков с эффектом исчезновения
+    - essentials.tppos #Телепорт в указанную точку.
+    - essentials.tp #Телепорт в игроку.
+    - essentials.tp.others #Позволяет телепортировать других игроков
+    - essentials.spawn.cooldown.bypass
+    - essentials.teleport.cooldown.bypass
+    - essentials.warp.*
+    - essentials.warp.overwrite.* #Позволяет перезаписывать все существующие warp's
+    - essentials.setwarp #Определить новое местоположение.
+    - essentials.clearinventory.others
+    - essentials.seen.banreason #Позволяет посмотреть пользователю причину бана
+    - essentials.seen #Посмотреть, когда игрок последний раз был онлайн.
+    - worldedit.* #Полный доступ
+    - worldguard.* #Полный доступ
+    - scavenger.scavenge
+    - scavenger.inv.*
+    - scavenger.level.*
+    - ChestShop.mod
+    - lwc.mod
+    - lokipost.dig.deny #разрешать рыть ямы
+    - lokipost.build.deny #разрешать строить столы
+  admin:
+    options:
+      default: false
+      prefix: '&4&l<<<&b&lАдмин&4&l>>> &a&l'
+      suffix: '&3'
+    permissions:
+    - '*'
+users:
+  edf3cc88-f026-5e8e-9361-7e3875250df4:
+    group:
+    - admin
+    options:
+      name: nabster
+schema-version: 1
