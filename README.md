@@ -5,4 +5,4 @@ Minecraft Ely.by server от nabster
 
 Для работы требуется лаунчер и аккаунт от сайта Ely.by !
 
-Город "nether world" пока не работает так как конфликтует с "CreativeGates"
+Город "nether world" пока не работает так как конфликтует с "CreativeGates" - скоро будет доступен
