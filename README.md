@@ -1,4 +1,4 @@
-# Spigot-server-1.8.8
+# Spigot-server-1.8.8 R0.1 SNAPSHOT
 Minecraft Ely.by server от nabster
 
 Тестируется на [ubuntu 14.04][Java 8]
