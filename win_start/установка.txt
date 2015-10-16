@@ -1,1 +1,1 @@
-Скопировать start.bat и spigot.yml В папку с Spigot.jar
+Скопировать start.bat и spigot.yml В папку с spigot-offline.jar и spigot-online.jar
