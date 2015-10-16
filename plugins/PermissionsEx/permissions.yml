@@ -53,7 +53,8 @@ groups:
     - worldguard.region.flag.flags.use.* #Владельцы регионов могут ставить флаги на use
     - worldguard.region.flag.flags.chest-access.* #Владельцы регионов могут ставить доступ к сундуку.
     - ChestShop.shop.*
-    - lift
+    - lift #разрешает игрокам пользоваться лифтом.
+    - lift.change #разрешает игрокам менять расположение этажей.
     - lwc.protect
     - scavenger.scavenge
   moder:
