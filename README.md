@@ -14,7 +14,7 @@ ChestShop - Магазины
 
 ClearLag - Чистка мусора. Уменьшение лагов
 
-Essentials - Набор команд и функций (RUS)
+Essentials - Набор команд и функций
 
 EssentialsChat - Плагин чата
 
