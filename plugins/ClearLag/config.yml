@@ -297,7 +297,7 @@ limit:
   enable-limit: false
   max: 1000
   check-interval: 60
-  broadcast-message: '&6[ClearLag] &aLimit reached, removed +RemoveAmount Entities!'
+  broadcast-message: '&6[ClearLag] &aДостигнут предел, удалено +RemoveAmount Объектов!'
   world-filter:
     - this_world
   broadcast-removal: true
