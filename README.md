@@ -1,4 +1,5 @@
 # Spigot-server-1.8.8 R0.1 SNAPSHOT
+
 Minecraft Ely.by server от nabster
 
 Тестируется на [ubuntu 14.04][Java 8]
@@ -8,39 +9,40 @@ Minecraft Ely.by server от nabster
 Город "nether world" пока не работает так как конфликтует с "CreativeGates" - скоро будет доступен
 
 #Список плагинов
-AutoSaveWorld -  авто сохранение мира, резервное копирование и многое другое.
 
-ChestShop - Магазины
+AutoSaveWorld -  авто сохранение мира, резервное копирование и многое другое. (RUS)
 
-ClearLag - Чистка мусора. Уменьшение лагов
+ChestShop - Магазины (RUS)
 
-Essentials - Набор команд и функций
+ClearLag - Чистка мусора. Уменьшение лагов (RUS)
 
-EssentialsChat - Плагин чата
+Essentials - Набор команд и функций (RUS)
 
-EssentialsSpawn - Дополнение к Essentials
+EssentialsChat - Плагин чата (RUS)
 
-Lift - лифты
+EssentialsSpawn - Дополнение к Essentials (RUS)
 
-Lokipost - защита от ям, столбов
+Lift - лифты 
 
-LWC - Защита блоков
+Lokipost - защита от ям, столбов (RUS)
+
+LWC - Защита блоков (RUS)
 
 MassiveCore - Нужен для некоторых плагинов
 
 CreativeGates- Портал
 
-NoCheatsPlus - Античит
+NoCheatsPlus - Античит (RUS)
 
-PermissionsEx - Плагин на права
+PermissionsEx - Плагин на права (RUS)
 
 ProtocolLib - Нужен для некоторых плагинов
 
-Scavenger -  сохраняет инвентарь вип игрокам
+Scavenger -  сохраняет инвентарь вип игрокам (RUS)
 
 Vault -  Нужен для некоторых плагинов
 
-WorldBorder - Ограничение мира
+WorldBorder - Ограничение мира (RUS)
 
 WorldEdit - Редактор мира
 
