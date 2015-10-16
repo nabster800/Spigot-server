@@ -17,5 +17,5 @@ set mem=%memthirtytwo%
 echo OS is 32
 set mem=%memsixtyfour%
 )
-java -Xmx%mem% -XX:MaxPermSize=256M -Dfile.encoding=UTF-8 -jar Spigot.jar nogui
+java -Xmx%mem% -XX:MaxPermSize=256M -Dfile.encoding=UTF-8 -jar spigot-offline.jar nogui
 PAUSE
