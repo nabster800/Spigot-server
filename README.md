@@ -6,8 +6,6 @@ Minecraft Ely.by server от nabster
 
 Для работы требуется лаунчер и аккаунт от сайта Ely.by !
 
-Город "nether world" пока не работает так как конфликтует с "CreativeGates" - скоро будет доступен
-
 Spigot-offline  -  запуск сервера без системы скинов Ely.by   "server.properties" - должно стоять "online-mode=false" (по умолчанию)
 
 Spigot-online  -  запуск сервера через систему скинов Ely.by   "server.properties" - должно стоять "online-mode=true"
