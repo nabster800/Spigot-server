@@ -2,7 +2,7 @@
 
 Minecraft Ely.by server от nabster
 
-Тестируется на [ubuntu 14.04][Java 8]
+Тестируется на [Windows 10][Java 8]
 
 Для работы требуется лаунчер и аккаунт от сайта Ely.by !
 
