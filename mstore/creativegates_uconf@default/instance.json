@@ -1,6 +1,6 @@
 {
   "enabled": true,
-  "usingWater": false,
+  "usingWater": true,
   "pigmanPortalSpawnAllowed": true,
   "maxarea": 200,
   "blocksrequired": {
