@@ -6,7 +6,7 @@ Minecraft Ely.by server от nabster
 
 Для работы требуется лаунчер и аккаунт от сайта Ely.by !
 
-Spigot-offline  -  запуск сервера без системы скинов Ely.by   "server.properties" - должно стоять "offline-mode=false" (по умолчанию)
+Spigot-offline  -  запуск сервера без системы скинов Ely.by   "server.properties" - должно стоять "online-mode=false" (по умолчанию)
 
 Spigot-online  -  запуск сервера через систему скинов Ely.by   "server.properties" - должно стоять "online-mode=true"
 
