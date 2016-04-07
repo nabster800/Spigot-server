@@ -1,42 +1,40 @@
 # Spigot-server-1.9.2
 Minecraft Ely.by server от nabster
 
-Тестируется на [ubuntu 14.04][Java 8][Linux]
+Тестируется на [ubuntu 14.04][Java 8]
 
 Для работы требуется лаунчер и аккаунт от сайта Ely.by !
 
-#Список плагинов
+# Список плагинов
 
-ClearLag - Чистка мусора. Уменьшение лагов
+ClearLag — Чистка мусора. Уменьшение лагов (RUS)
 
-Essentials - Набор команд и функций
+Essentials — Набор команд и функций (RUS)
 
-EssentialsChat - Плагин чата
+EssentialsChat — Плагин чата (RUS)
 
-EssentialsSpawn - Дополнение к Essentials
+EssentialsSpawn — Дополнение к Essentials (RUS)
 
-Lift - лифты
+Lift — лифты
 
-Lokipost - защита от ям, столбов
+Lokipost — защита от ям, столбов (RUS)
 
-LWC - Защита блоков
+MassiveCore — Нужен для некоторых плагинов (Перевод ненадо)
 
-MassiveCore - Нужен для некоторых плагинов
+CreativeGates- Портал (Перевод ненадо)
 
-CreativeGates- Портал
+NoCheatsPlus — Античит (RUS)
 
-NoCheatsPlus - Античит
+PermissionsEx — Плагин на права (RUS)
 
-PermissionsEx - Плагин на права
+ProtocolLib — Нужен для некоторых плагинов (Перевод ненадо)
 
-ProtocolLib - Нужен для некоторых плагинов
+Scavenger — сохраняет инвентарь игрокам (RUS)
 
-Scavenger -  сохраняет инвентарь вип игрокам
+Vault — Нужен для некоторых плагинов (Перевод ненадо)
 
-Vault -  Нужен для некоторых плагинов
+WorldBorder — Ограничение мира (RUS)
 
-WorldBorder - Ограничение мира
+WorldEdit — Редактор мира (RUS)
 
-WorldEdit - Редактор мира
-
-WorldGuard - Приват территории
+WorldGuard — Приват территории (RUS)
