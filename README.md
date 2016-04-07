@@ -1,16 +1,11 @@
-# Spigot-server-1.8.8 R0.1 SNAPSHOT
+# Spigot-server-1.9.2
 Minecraft Ely.by server от nabster
 
 Тестируется на [ubuntu 14.04][Java 8]
 
 Для работы требуется лаунчер и аккаунт от сайта Ely.by !
 
-Город "nether world" пока не работает так как конфликтует с "CreativeGates" - скоро будет доступен
-
 #Список плагинов
-AutoSaveWorld -  авто сохранение мира, резервное копирование и многое другое.
-
-ChestShop - Магазины
 
 ClearLag - Чистка мусора. Уменьшение лагов
 
