@@ -224,6 +224,7 @@ kits:
       - 278 1
       - 279 1
       - 297 20
+      - 387 1 title:&4&lHelp author:nabster lore:Help_команды book:Help1
       - 387 1 title:&4&lHelp author:nabster lore:Help_команды book:Help2
   admin:
     delay: 266400
@@ -233,7 +234,9 @@ kits:
       - 278 1
       - 279 1
       - 297 20
+      - 387 1 title:&4&lHelp author:nabster lore:Help_команды book:Help1
       - 387 1 title:&4&lHelp author:nabster lore:Help_команды book:Help2
+      - 387 1 title:&4&lHelp author:nabster lore:Help_команды book:Help3
 # Essentials контроль табличек.
 # См. http://wiki.ess3.net/wiki/Sign_Tutorial инструкции о том, как их использовать.
 # Чтобы включить таблички, удалите символ "#". Чтобы отключить все таблички, добавьте/удалите другие табличке.
@@ -426,7 +429,7 @@ world-home-permissions: false
 sethome-multiple:
   default: 3
   moder: 5
-  staff: 100
+  admin: 100
 
 # Установить время ожидания в секундах для игроков, через которое запрос /tpa будет отменён.
 # Установите в 0, чтобы не было ограничения.
