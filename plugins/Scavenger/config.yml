@@ -39,6 +39,8 @@ Messages:
   MsgPVPDeath: Убил другой игрок! Роняя предметы.
   MsgBlacklistedWorld: Scavenger отключена в этом мире. Будьте осторожны.
   MsgNoPerm: Вы не имеете права сделать это!
+  MsgSelfRecoveryEnabled: You have enabled item recovery for yourself!
+  MsgSelfRecoveryDisabled: You have disabled item recovery for yourself!
 Economy:
   Enabled: false
   Percent: false
@@ -50,6 +52,8 @@ Economy:
   ChanceToDrop: 0
   DepositType: none
   DepositDestination: ''
+  CountryCode: ''
+  DecimalPlaces: 2
 BlacklistedWorlds:
 - put_here_worlds
 - that_you_want_blacklisted

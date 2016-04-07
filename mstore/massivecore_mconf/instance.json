@@ -1,4 +1,5 @@
 {
+  "checkVersionSynchronization": true,
   "maxTabCompletions": 100,
   "aliasesOuterMassiveCore": [
     "massivecore",
@@ -35,5 +36,9 @@
   "variableBook": "***book***",
   "usingVariableBook": true,
   "variableBuffer": "***buffer***",
-  "usingVariableBuffer": true
+  "usingVariableBuffer": true,
+  "millisBetweenLocalPoll": 300000,
+  "millisBetweenRemotePollWithoutPusher": 10000,
+  "millisBetweenRemotePollWithPusher": 60000,
+  "warnOnLocalAlter": false
 }

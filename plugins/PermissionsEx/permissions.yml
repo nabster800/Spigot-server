@@ -52,9 +52,8 @@ groups:
     - worldguard.region.flag.flags.pvp.* #Владельцы регионов могут ставить флаги на pvp
     - worldguard.region.flag.flags.use.* #Владельцы регионов могут ставить флаги на use
     - worldguard.region.flag.flags.chest-access.* #Владельцы регионов могут ставить доступ к сундуку.
-    - ChestShop.shop.*
-    - lift
-    - lwc.protect
+    - lift #разрешает игрокам пользоваться лифтом.
+    - lift.change #разрешает игрокам менять расположение этажей.
     - scavenger.scavenge
   moder:
     options:
@@ -105,8 +104,6 @@ groups:
     - scavenger.scavenge
     - scavenger.inv.*
     - scavenger.level.*
-    - ChestShop.mod
-    - lwc.mod
     - lokipost.dig.deny #разрешать рыть ямы
     - lokipost.build.deny #разрешать строить столы
   admin:
