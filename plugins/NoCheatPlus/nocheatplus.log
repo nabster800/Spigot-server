@@ -1,0 +1,844 @@
+16-04-07 02:16:26 [INFO] Logger started.
+16-04-07 02:16:26 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 02:16:26 [INFO] [NoCheatPlus] Detected Minecraft version: 1.8.8
+16-04-07 02:16:39 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 02:16:39 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 02:16:39 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-5f38d38-12698ea (MC: 1.8.8)). Please check for updates and consider to request support.
+16-04-07 02:16:39 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 02:16:39 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 02:16:39 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 02:16:39 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 02:16:39 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-5f38d38-12698ea (MC: 1.8.8)
+(detected: 1.8.8)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 02:18:01 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 02:18:24 [INFO] Logger started.
+16-04-07 02:18:24 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 02:18:24 [INFO] [NoCheatPlus] Detected Minecraft version: 1.8.8
+16-04-07 02:18:27 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 02:18:27 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 02:18:27 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-5f38d38-12698ea (MC: 1.8.8)). Please check for updates and consider to request support.
+16-04-07 02:18:27 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 02:18:27 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 02:18:27 [INFO] Adding packet level hooks for ProtocolLib (MC 1.8.8)...
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 02:18:27 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 02:18:27 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-5f38d38-12698ea (MC: 1.8.8)
+(detected: 1.8.8)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 02:27:44 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 3848 (3848/0) | event.player.move.handled.pos 2202 (2202/0) | event.player.move.handled.look 413 (413/0) | event.player.move.handled.pos_look 1233 (1233/0) | packet.flying.nullplayer 0 | packet.flying.handled 1716 (0/1716) | packet.flying.asynchronous 1716 (0/1716) |
+16-04-07 10:27:44 [INFO] Logger started.
+16-04-07 10:27:44 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 10:27:44 [INFO] [NoCheatPlus] Detected Minecraft version: 1.9.2
+16-04-07 10:27:48 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 10:27:48 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 10:27:48 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)). Please check for updates and consider to request support.
+16-04-07 10:27:48 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 10:27:48 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:27:48 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 10:27:48 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 10:27:48 [WARNING] [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING 198(END_ROD / IGN_PASSABLE) 
+* MISSING 199(CHORUS_PLANT / IGN_PASSABLE) 
+* MISSING 200(CHORUS_FLOWER / IGN_PASSABLE) 
+* MISSING 201(PURPUR_BLOCK / SOLID+GROUND) 
+* MISSING 202(PURPUR_PILLAR / SOLID+GROUND) 
+* MISSING 203(PURPUR_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 204(PURPUR_DOUBLE_SLAB / SOLID+GROUND) 
+* MISSING 205(PURPUR_SLAB / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 206(END_BRICKS / SOLID+GROUND) 
+* MISSING 207(BEETROOT_BLOCK / IGN_PASSABLE) 
+* MISSING 208(GRASS_PATH / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 209(END_GATEWAY / IGN_PASSABLE) 
+* MISSING 210(COMMAND_REPEATING / SOLID+GROUND) 
+* MISSING 211(COMMAND_CHAIN / SOLID+GROUND) 
+* MISSING 212(FROSTED_ICE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 255(STRUCTURE_BLOCK / SOLID+GROUND) 
+16-04-07 10:27:48 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)
+(detected: 1.9.2)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 10:28:08 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 10:30:04 [INFO] Logger started.
+16-04-07 10:30:04 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 10:30:04 [INFO] [NoCheatPlus] Detected Minecraft version: 1.9.2
+16-04-07 10:30:08 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 10:30:08 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 10:30:08 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)). Please check for updates and consider to request support.
+16-04-07 10:30:08 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 10:30:08 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:30:08 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 10:30:08 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 10:30:08 [WARNING] [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING 198(END_ROD / IGN_PASSABLE) 
+* MISSING 199(CHORUS_PLANT / IGN_PASSABLE) 
+* MISSING 200(CHORUS_FLOWER / IGN_PASSABLE) 
+* MISSING 201(PURPUR_BLOCK / SOLID+GROUND) 
+* MISSING 202(PURPUR_PILLAR / SOLID+GROUND) 
+* MISSING 203(PURPUR_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 204(PURPUR_DOUBLE_SLAB / SOLID+GROUND) 
+* MISSING 205(PURPUR_SLAB / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 206(END_BRICKS / SOLID+GROUND) 
+* MISSING 207(BEETROOT_BLOCK / IGN_PASSABLE) 
+* MISSING 208(GRASS_PATH / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 209(END_GATEWAY / IGN_PASSABLE) 
+* MISSING 210(COMMAND_REPEATING / SOLID+GROUND) 
+* MISSING 211(COMMAND_CHAIN / SOLID+GROUND) 
+* MISSING 212(FROSTED_ICE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 255(STRUCTURE_BLOCK / SOLID+GROUND) 
+16-04-07 10:30:08 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)
+(detected: 1.9.2)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 10:30:52 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 10:31:14 [INFO] Logger started.
+16-04-07 10:31:14 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 10:31:14 [INFO] [NoCheatPlus] Detected Minecraft version: 1.9.2
+16-04-07 10:31:18 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 10:31:18 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 10:31:18 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)). Please check for updates and consider to request support.
+16-04-07 10:31:18 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 10:31:18 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 10:31:18 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:31:18 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:31:18 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:31:18 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:31:18 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:31:18 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 10:31:18 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 10:31:18 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 10:31:19 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 10:31:19 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 10:31:19 [WARNING] [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING 198(END_ROD / IGN_PASSABLE) 
+* MISSING 199(CHORUS_PLANT / IGN_PASSABLE) 
+* MISSING 200(CHORUS_FLOWER / IGN_PASSABLE) 
+* MISSING 201(PURPUR_BLOCK / SOLID+GROUND) 
+* MISSING 202(PURPUR_PILLAR / SOLID+GROUND) 
+* MISSING 203(PURPUR_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 204(PURPUR_DOUBLE_SLAB / SOLID+GROUND) 
+* MISSING 205(PURPUR_SLAB / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 206(END_BRICKS / SOLID+GROUND) 
+* MISSING 207(BEETROOT_BLOCK / IGN_PASSABLE) 
+* MISSING 208(GRASS_PATH / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 209(END_GATEWAY / IGN_PASSABLE) 
+* MISSING 210(COMMAND_REPEATING / SOLID+GROUND) 
+* MISSING 211(COMMAND_CHAIN / SOLID+GROUND) 
+* MISSING 212(FROSTED_ICE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 255(STRUCTURE_BLOCK / SOLID+GROUND) 
+16-04-07 10:31:19 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)
+(detected: 1.9.2)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 10:31:37 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 10:32:47 [INFO] Logger started.
+16-04-07 10:32:47 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 10:32:47 [INFO] [NoCheatPlus] Detected Minecraft version: 1.9.2
+16-04-07 10:32:50 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 10:32:50 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 10:32:50 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)). Please check for updates and consider to request support.
+16-04-07 10:32:50 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 10:32:50 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:32:50 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 10:32:50 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 10:32:50 [WARNING] [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING 198(END_ROD / IGN_PASSABLE) 
+* MISSING 199(CHORUS_PLANT / IGN_PASSABLE) 
+* MISSING 200(CHORUS_FLOWER / IGN_PASSABLE) 
+* MISSING 201(PURPUR_BLOCK / SOLID+GROUND) 
+* MISSING 202(PURPUR_PILLAR / SOLID+GROUND) 
+* MISSING 203(PURPUR_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 204(PURPUR_DOUBLE_SLAB / SOLID+GROUND) 
+* MISSING 205(PURPUR_SLAB / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 206(END_BRICKS / SOLID+GROUND) 
+* MISSING 207(BEETROOT_BLOCK / IGN_PASSABLE) 
+* MISSING 208(GRASS_PATH / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 209(END_GATEWAY / IGN_PASSABLE) 
+* MISSING 210(COMMAND_REPEATING / SOLID+GROUND) 
+* MISSING 211(COMMAND_CHAIN / SOLID+GROUND) 
+* MISSING 212(FROSTED_ICE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 255(STRUCTURE_BLOCK / SOLID+GROUND) 
+16-04-07 10:32:50 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)
+(detected: 1.9.2)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 10:34:36 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 10:36:11 [INFO] Logger started.
+16-04-07 10:36:11 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 10:36:11 [INFO] [NoCheatPlus] Detected Minecraft version: 1.9.2
+16-04-07 10:36:14 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 10:36:14 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 10:36:14 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)). Please check for updates and consider to request support.
+16-04-07 10:36:14 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 10:36:14 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:36:14 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 10:36:14 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 10:36:14 [WARNING] [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING 198(END_ROD / IGN_PASSABLE) 
+* MISSING 199(CHORUS_PLANT / IGN_PASSABLE) 
+* MISSING 200(CHORUS_FLOWER / IGN_PASSABLE) 
+* MISSING 201(PURPUR_BLOCK / SOLID+GROUND) 
+* MISSING 202(PURPUR_PILLAR / SOLID+GROUND) 
+* MISSING 203(PURPUR_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 204(PURPUR_DOUBLE_SLAB / SOLID+GROUND) 
+* MISSING 205(PURPUR_SLAB / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 206(END_BRICKS / SOLID+GROUND) 
+* MISSING 207(BEETROOT_BLOCK / IGN_PASSABLE) 
+* MISSING 208(GRASS_PATH / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 209(END_GATEWAY / IGN_PASSABLE) 
+* MISSING 210(COMMAND_REPEATING / SOLID+GROUND) 
+* MISSING 211(COMMAND_CHAIN / SOLID+GROUND) 
+* MISSING 212(FROSTED_ICE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 255(STRUCTURE_BLOCK / SOLID+GROUND) 
+16-04-07 10:36:14 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)
+(detected: 1.9.2)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 10:36:56 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 10:39:09 [INFO] Logger started.
+16-04-07 10:39:09 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 10:39:09 [INFO] [NoCheatPlus] Detected Minecraft version: 1.9.2
+16-04-07 10:39:12 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 10:39:12 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 10:39:12 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)). Please check for updates and consider to request support.
+16-04-07 10:39:12 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 10:39:12 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 10:39:12 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:39:12 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:39:12 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:39:12 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:39:12 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:39:12 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 10:39:12 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 10:39:12 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 10:39:13 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 10:39:13 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 10:39:13 [WARNING] [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING 198(END_ROD / IGN_PASSABLE) 
+* MISSING 199(CHORUS_PLANT / IGN_PASSABLE) 
+* MISSING 200(CHORUS_FLOWER / IGN_PASSABLE) 
+* MISSING 201(PURPUR_BLOCK / SOLID+GROUND) 
+* MISSING 202(PURPUR_PILLAR / SOLID+GROUND) 
+* MISSING 203(PURPUR_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 204(PURPUR_DOUBLE_SLAB / SOLID+GROUND) 
+* MISSING 205(PURPUR_SLAB / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 206(END_BRICKS / SOLID+GROUND) 
+* MISSING 207(BEETROOT_BLOCK / IGN_PASSABLE) 
+* MISSING 208(GRASS_PATH / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 209(END_GATEWAY / IGN_PASSABLE) 
+* MISSING 210(COMMAND_REPEATING / SOLID+GROUND) 
+* MISSING 211(COMMAND_CHAIN / SOLID+GROUND) 
+* MISSING 212(FROSTED_ICE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 255(STRUCTURE_BLOCK / SOLID+GROUND) 
+16-04-07 10:39:13 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)
+(detected: 1.9.2)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 10:40:13 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 10:41:08 [INFO] Logger started.
+16-04-07 10:41:08 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 10:41:08 [INFO] [NoCheatPlus] Detected Minecraft version: 1.9.2
+16-04-07 10:41:11 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 10:41:11 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 10:41:11 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)). Please check for updates and consider to request support.
+16-04-07 10:41:11 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 10:41:11 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:41:11 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 10:41:11 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 10:41:11 [WARNING] [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING 198(END_ROD / IGN_PASSABLE) 
+* MISSING 199(CHORUS_PLANT / IGN_PASSABLE) 
+* MISSING 200(CHORUS_FLOWER / IGN_PASSABLE) 
+* MISSING 201(PURPUR_BLOCK / SOLID+GROUND) 
+* MISSING 202(PURPUR_PILLAR / SOLID+GROUND) 
+* MISSING 203(PURPUR_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 204(PURPUR_DOUBLE_SLAB / SOLID+GROUND) 
+* MISSING 205(PURPUR_SLAB / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 206(END_BRICKS / SOLID+GROUND) 
+* MISSING 207(BEETROOT_BLOCK / IGN_PASSABLE) 
+* MISSING 208(GRASS_PATH / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 209(END_GATEWAY / IGN_PASSABLE) 
+* MISSING 210(COMMAND_REPEATING / SOLID+GROUND) 
+* MISSING 211(COMMAND_CHAIN / SOLID+GROUND) 
+* MISSING 212(FROSTED_ICE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 255(STRUCTURE_BLOCK / SOLID+GROUND) 
+16-04-07 10:41:11 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)
+(detected: 1.9.2)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 10:42:49 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 10:46:10 [INFO] Logger started.
+16-04-07 10:46:10 [INFO] [NoCheatPlus] Logging system initialized.
+16-04-07 10:46:10 [INFO] [NoCheatPlus] Detected Minecraft version: 1.9.2
+16-04-07 10:46:12 [WARNING] [NoCheatPlus]  Check for updates and support at BukkitDev: http://dev.bukkit.org/server-mods/nocheatplus/
+16-04-07 10:46:12 [WARNING] [NoCheatPlus]  Development builds (unsupported by the Bukkit Staff, at your own risk): http://ci.md-5.net/job/NoCheatPlus/changes
+16-04-07 10:46:12 [WARNING] [NoCheatPlus] Could not set up native access for the server-mod (git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)). Please check for updates and consider to request support.
+16-04-07 10:46:12 [WARNING] [NoCheatPlus] Bukkit-API-only access: Some features will likely not function properly, performance might suffer.
+16-04-07 10:46:12 [INFO] [NoCheatPlus] McAccess set to: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+16-04-07 10:46:12 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:46:12 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:46:12 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:46:12 [INFO] [NoCheatPlus] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:46:13 [INFO] [NoCheatPlus] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:46:13 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 10:46:13 [INFO] [NoCheatPlus] Available (and activated) packet level hooks: FlyingFrequency | KeepAliveFrequency | SoundDistance
+16-04-07 10:46:13 [INFO] [NoCheatPlus] Version 3.12.0-BETA2-sASO-b813 is enabled.
+16-04-07 10:46:13 [INFO] [NoCheatPlus] Post-enable running...
+16-04-07 10:46:13 [INFO] [NoCheatPlus] Post-enable finished.
+16-04-07 10:46:13 [WARNING] [NoCheatPlus] The block breaking data is incomplete, default to allow instant breaking:
+--- Missing entries -------------------------------
+* MISSING 198(END_ROD / IGN_PASSABLE) 
+* MISSING 199(CHORUS_PLANT / IGN_PASSABLE) 
+* MISSING 200(CHORUS_FLOWER / IGN_PASSABLE) 
+* MISSING 201(PURPUR_BLOCK / SOLID+GROUND) 
+* MISSING 202(PURPUR_PILLAR / SOLID+GROUND) 
+* MISSING 203(PURPUR_STAIRS / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 204(PURPUR_DOUBLE_SLAB / SOLID+GROUND) 
+* MISSING 205(PURPUR_SLAB / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 206(END_BRICKS / SOLID+GROUND) 
+* MISSING 207(BEETROOT_BLOCK / IGN_PASSABLE) 
+* MISSING 208(GRASS_PATH / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 209(END_GATEWAY / IGN_PASSABLE) 
+* MISSING 210(COMMAND_REPEATING / SOLID+GROUND) 
+* MISSING 211(COMMAND_CHAIN / SOLID+GROUND) 
+* MISSING 212(FROSTED_ICE / SOLID+IGN_PASSABLE+GROUND+GROUND_HEIGHT) 
+* MISSING 255(STRUCTURE_BLOCK / SOLID+GROUND) 
+16-04-07 10:46:13 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 (MC: 1.9.2)
+(detected: 1.9.2)
+#### NoCheatPlus ####
+Plugin: 3.12.0-BETA2-sASO-b813
+MCAccess: 1.4.6|1.4.7|1.5.x|1.6.x|1.7.x|1.8.x|? / Bukkit-API
+Features:
+  blocks: BlocksMC1_4(base) | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | MCAccessBukkit
+  checks: FastConsume | Gutenberg | FlyingFrequency | KeepAliveFrequency | SoundDistance
+  defaults: pvpKnockBackVelocity
+16-04-07 10:46:33 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 |
+16-04-07 10:54:33 [INFO] Logger started.
+16-04-07 10:54:33 [INFO] Logging system initialized.
+16-04-07 10:54:33 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 10:54:36 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 10:54:36 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 10:54:36 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 10:54:36 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 10:54:36 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 10:54:36 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 10:54:36 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 10:54:36 [WARNING] NoCheatPlus supports ProtocolLib 3.6.4 on Minecraft 1.7.10 and earlier, ProtocolLib 3.6.4 or 3.6.5 on Minecraft 1.8, ProtocolLib 3.7 on Minecraft 1.9, ProtocolLib 4.0.0 or later on Minecraft 1.9 [EXPERIMENTAL].
+16-04-07 10:54:36 [INFO] Packet level access: ProtocolLib is not available.
+16-04-07 10:54:36 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 10:54:36 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 10:54:36 [INFO] Post-enable running...
+16-04-07 10:54:36 [INFO] Post-enable finished.
+16-04-07 10:54:36 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 10:54:36 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v3.6.4
+16-04-07 11:02:05 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:02:05 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 221 (221/0) | event.player.move.handled.pos 134 (134/0) | event.player.move.handled.look 39 (39/0) | event.player.move.handled.pos_look 48 (48/0) |
+16-04-07 11:03:56 [INFO] Logger started.
+16-04-07 11:03:56 [INFO] Logging system initialized.
+16-04-07 11:03:56 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:04:16 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:04:16 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:04:16 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:04:16 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:04:16 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:04:16 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:04:16 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:04:16 [WARNING] NoCheatPlus supports ProtocolLib 3.6.4 on Minecraft 1.7.10 and earlier, ProtocolLib 3.6.4 or 3.6.5 on Minecraft 1.8, ProtocolLib 3.7 on Minecraft 1.9, ProtocolLib 4.0.0 or later on Minecraft 1.9 [EXPERIMENTAL].
+16-04-07 11:04:16 [INFO] Packet level access: ProtocolLib is not available.
+16-04-07 11:04:16 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:04:16 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:04:16 [INFO] Post-enable running...
+16-04-07 11:04:16 [INFO] Post-enable finished.
+16-04-07 11:04:16 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:04:16 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v3.6.4
+16-04-07 11:14:59 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:14:59 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 1603 (1603/0) | event.player.move.handled.pos 866 (866/0) | event.player.move.handled.look 107 (107/0) | event.player.move.handled.pos_look 630 (630/0) |
+16-04-07 11:21:28 [INFO] Logger started.
+16-04-07 11:21:28 [INFO] Logging system initialized.
+16-04-07 11:21:28 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:21:31 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:21:31 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:21:31 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:21:31 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:21:31 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:21:31 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:21:31 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:21:31 [WARNING] NoCheatPlus supports ProtocolLib 3.6.4 on Minecraft 1.7.10 and earlier, ProtocolLib 3.6.4 or 3.6.5 on Minecraft 1.8, ProtocolLib 3.7 on Minecraft 1.9, ProtocolLib 4.0.0 or later on Minecraft 1.9 [EXPERIMENTAL].
+16-04-07 11:21:31 [INFO] Packet level access: ProtocolLib is not available.
+16-04-07 11:21:31 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:21:31 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:21:31 [INFO] Post-enable running...
+16-04-07 11:21:31 [INFO] Post-enable finished.
+16-04-07 11:21:31 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:21:31 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v3.6.4
+16-04-07 11:24:17 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:24:17 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 |
+16-04-07 11:24:41 [INFO] Logger started.
+16-04-07 11:24:41 [INFO] Logging system initialized.
+16-04-07 11:24:41 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:24:44 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:24:44 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:24:44 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:24:44 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:24:44 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:24:44 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:24:44 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:24:44 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 11:24:44 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 11:24:44 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:24:44 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:24:45 [INFO] Post-enable running...
+16-04-07 11:24:45 [INFO] Post-enable finished.
+16-04-07 11:24:45 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 11:24:45 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:24:45 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 11:25:20 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:25:20 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 | packet.outgoing_position.untracked 0 |
+16-04-07 11:27:48 [INFO] Logger started.
+16-04-07 11:27:48 [INFO] Logging system initialized.
+16-04-07 11:27:48 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:27:51 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:27:51 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:27:51 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:27:51 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:27:51 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:27:51 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:27:52 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:27:52 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 11:27:52 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 11:27:52 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:27:52 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:27:52 [INFO] Post-enable running...
+16-04-07 11:27:52 [INFO] Post-enable finished.
+16-04-07 11:27:52 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 11:27:52 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:27:52 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 11:28:19 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:28:19 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 | packet.outgoing_position.untracked 0 |
+16-04-07 11:30:25 [INFO] Logger started.
+16-04-07 11:30:25 [INFO] Logging system initialized.
+16-04-07 11:30:25 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:30:28 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:30:28 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:30:28 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:30:28 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:30:28 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:30:28 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:30:28 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:30:28 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 11:30:28 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 11:30:28 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:30:28 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:30:29 [INFO] Post-enable running...
+16-04-07 11:30:29 [INFO] Post-enable finished.
+16-04-07 11:30:29 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 11:30:29 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:30:29 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 11:33:04 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:33:04 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 877 (877/0) | event.player.move.handled.pos 494 (494/0) | event.player.move.handled.look 61 (61/0) | event.player.move.handled.pos_look 322 (322/0) | packet.flying.nullplayer 0 | packet.flying.handled 972 (0/972) | packet.flying.asynchronous 972 (0/972) | packet.outgoing_position.untracked 0 |
+16-04-07 11:35:51 [INFO] Logger started.
+16-04-07 11:35:51 [INFO] Logging system initialized.
+16-04-07 11:35:51 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:35:54 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:35:54 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:35:54 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:35:54 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:35:54 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:35:54 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:35:54 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:35:54 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 11:35:54 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 11:35:54 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:35:54 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:35:55 [INFO] Post-enable running...
+16-04-07 11:35:55 [INFO] Post-enable finished.
+16-04-07 11:35:55 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 11:35:55 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:35:55 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 11:36:31 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:36:31 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 | packet.outgoing_position.untracked 0 |
+16-04-07 11:40:21 [INFO] Logger started.
+16-04-07 11:40:21 [INFO] Logging system initialized.
+16-04-07 11:40:21 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:40:24 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:40:25 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:40:25 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:40:25 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:40:25 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:40:25 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:40:25 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:40:25 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 11:40:25 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 11:40:25 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:40:25 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:40:25 [INFO] Post-enable running...
+16-04-07 11:40:25 [INFO] Post-enable finished.
+16-04-07 11:40:25 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 11:40:25 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:40:25 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 11:42:26 [INFO] Logger started.
+16-04-07 11:42:26 [INFO] Logging system initialized.
+16-04-07 11:42:26 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:42:29 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:42:29 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:42:29 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:42:29 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:42:29 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:42:29 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:42:29 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:42:29 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 11:42:29 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 11:42:29 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:42:29 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:42:29 [INFO] Post-enable running...
+16-04-07 11:42:29 [INFO] Post-enable finished.
+16-04-07 11:42:29 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 11:42:29 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:42:29 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 11:42:38 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:42:38 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 | packet.outgoing_position.untracked 0 |
+16-04-07 11:43:47 [INFO] Logger started.
+16-04-07 11:43:47 [INFO] Logging system initialized.
+16-04-07 11:43:47 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:43:51 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:43:51 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:43:51 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:43:51 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:43:51 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:43:51 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:43:51 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:43:51 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 11:43:51 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 11:43:51 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:43:51 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:43:51 [INFO] Post-enable running...
+16-04-07 11:43:51 [INFO] Post-enable finished.
+16-04-07 11:43:51 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 11:43:51 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:43:51 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 11:44:18 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:44:18 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 0 | event.player.move.handled.pos 0 | event.player.move.handled.look 0 | event.player.move.handled.pos_look 0 | packet.flying.nullplayer 0 | packet.flying.handled 0 | packet.flying.asynchronous 0 | packet.outgoing_position.untracked 0 |
+16-04-07 11:55:15 [INFO] Logger started.
+16-04-07 11:55:15 [INFO] Logging system initialized.
+16-04-07 11:55:15 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 11:55:36 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 11:55:36 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 11:55:36 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 11:55:36 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 11:55:36 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 11:55:36 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 11:55:36 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 11:55:36 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 11:55:36 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 11:55:36 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 11:55:36 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 11:55:36 [INFO] Post-enable running...
+16-04-07 11:55:36 [INFO] Post-enable finished.
+16-04-07 11:55:36 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 11:55:36 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 11:55:36 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 11:57:11 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 11:57:11 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 481 (481/0) | event.player.move.handled.pos 229 (229/0) | event.player.move.handled.look 39 (39/0) | event.player.move.handled.pos_look 212 (212/0) | packet.flying.nullplayer 0 | packet.flying.handled 595 (0/595) | packet.flying.asynchronous 595 (0/595) | packet.outgoing_position.untracked 0 |
+16-04-07 12:11:02 [INFO] Logger started.
+16-04-07 12:11:02 [INFO] Logging system initialized.
+16-04-07 12:11:02 [INFO] Detected Minecraft version: 1.9.2
+16-04-07 12:11:06 [INFO] McAccess set to: 1.9 / Spigot-CB-1.9_R1
+16-04-07 12:11:06 [INFO] Added block-info for Minecraft 1.5 blocks.
+16-04-07 12:11:06 [INFO] Added block-info for Minecraft 1.6.1 blocks.
+16-04-07 12:11:06 [INFO] Added block-info for Minecraft 1.7.2 blocks.
+16-04-07 12:11:06 [INFO] Added block-info for Minecraft 1.8 blocks.
+16-04-07 12:11:06 [INFO] Added block-info for Minecraft 1.9 blocks.
+16-04-07 12:11:06 [INFO] Inventory checks: FastConsume is available, disabled InstantEat.
+16-04-07 12:11:06 [INFO] Adding packet level hooks for ProtocolLib (MC 1.9.2)...
+16-04-07 12:11:06 [INFO] Available (and activated) packet level hooks: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+16-04-07 12:11:06 [INFO] Force disable FastHeal on Minecraft 1.9 and later.
+16-04-07 12:11:06 [INFO] Version 3.14.0-SNAPSHOT-sMD5NET-b958 is enabled.
+16-04-07 12:11:06 [INFO] Post-enable running...
+16-04-07 12:11:06 [INFO] Post-enable finished.
+16-04-07 12:11:06 [INFO] Disable SoundDistance due to incompatibilities.
+16-04-07 12:11:06 [INFO] Added hook: AllViolations(NCP) [1.0].
+16-04-07 12:11:06 [INFO] ---- Version information ----
+#### Server ####
+git-Spigot-944aa20-8d16fc0 ~MC: 1.9.2~
+  detected: 1.9.2
+#### NoCheatPlus ####
+Plugin: 3.14.0-SNAPSHOT-sMD5NET-b958
+MCAccess: 1.9 / Spigot-CB-1.9_R1
+Features:
+  blocks: BlocksMC1_4 | BlocksMC1_5 | BlocksMC1_6_1 | BlocksMC1_7_2 | BlocksMC1_8 | BlocksMC1_9
+  checks: FastConsume | Gutenberg | AttackFrequency | FlyingFrequency | KeepAliveFrequency
+  packet-listeners: UseEntityAdapter | MovingFlying | OutgoingPosition | KeepAliveAdapter
+Hooks: AllViolations~NCP~ 1.0
+#### Related Plugins ####
+ProtocolLib v4.0.0-SNAPSHOT-b271
+16-04-07 12:13:28 [INFO] Removed hook: AllViolations(NCP) [1.0].
+16-04-07 12:13:28 [FINE] | canceldead 0 | illegalitem 0 | boatsanywhere 0 | throwenderpearl 0 | fakeinvulnerable 0 | eggonentity 0 | event.player.move.handled 228 (228/0) | event.player.move.handled.pos 75 (75/0) | event.player.move.handled.look 53 (53/0) | event.player.move.handled.pos_look 100 (100/0) | packet.flying.nullplayer 0 | packet.flying.handled 518 (0/518) | packet.flying.asynchronous 518 (0/518) | packet.outgoing_position.untracked 0 |
