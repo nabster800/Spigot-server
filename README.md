@@ -1,7 +1,7 @@
 # Spigot-server-1.9.2
 Minecraft Ely.by server от nabster
 
-Тестируется на [ubuntu 14.04][Java 8]
+Тестируется на [ubuntu 14.04][Java 8][Linux]
 
 Для работы требуется лаунчер и аккаунт от сайта Ely.by !
 
