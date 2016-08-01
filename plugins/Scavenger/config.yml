@@ -39,8 +39,8 @@ Messages:
   MsgPVPDeath: Убил другой игрок! Роняя предметы.
   MsgBlacklistedWorld: Scavenger отключена в этом мире. Будьте осторожны.
   MsgNoPerm: Вы не имеете права сделать это!
-  MsgSelfRecoveryEnabled: You have enabled item recovery for yourself!
-  MsgSelfRecoveryDisabled: You have disabled item recovery for yourself!
+  MsgSelfRecoveryEnabled: Вы включили пункт восстановление для себя!
+  MsgSelfRecoveryDisabled: Вы отключили пункт восстановление для себя!
 Economy:
   Enabled: false
   Percent: false
