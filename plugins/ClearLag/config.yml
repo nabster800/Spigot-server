@@ -3,32 +3,31 @@
 #--------------------------------------------------------------------#
 # Configure to your liking, reload the config by tying: /lagg reload #
 #                                -                                   #
-#        Here is a helpful tutorial on this configuration setup!     #
-#   http://dev.bukkit.org/server-mods/clearlagg/pages/config-setup/  #
+#  Here is a helpful tutorial on this configuration setup! (Updated) #
+# http://dev.bukkit.org/bukkit-plugins/clearlagg/pages/config-setup/ #
 #--------------------------------------------------------------------#
-#                     All possible mob names                         #
-# http://dev.bukkit.org/server-mods/clearlagg/pages/mob-types/nodes/ #
+#          All possible mob names: https://goo.gl/cch8YK             #
 #--------------------------------------------------------------------#
 settings:
   auto-update: false
-  enable-signs: true
-  config-version: 7
+  config-version: 9
   disable-waterlife: true
   keep-spawn-in-memory: true
   enable-api: true
-  
+
 #Meters your ram usage, if it goes above 'limit', run 'commands:'
-# -- 'ram-limit:' is in MB, do not set it exactly to your max allocated ram amount
-# -- 'interval:' is how often clearlag will check your ram usage
+# -- 'ram-limit' is in MB, do not set it exactly to your max allocated ram amount
+# -- 'interval' is how often clearlag will check your ram usage
+# -- 'commands' lists the commands that will be ran upon hitting your ram-limit
 ram-meter:
   enabled: false
-  interval: 20 
+  interval: 20
   ram-limit: 5000
   commands:
     - 'lagg killmobs'
     - 'lagg clear'
     - 'lagg gc'
- 
+
 #This limits how fast a user can move from chunk-to-chunk and will prevent users from overloading your server
 #I HIGHLY recommend you use this on servers with increased player-speeds/or fly enabled
 # -- 'limit-only-fly' ONLY limit players who are currently flying
@@ -38,7 +37,7 @@ player-speed-limiter:
   enabled: false
   chunk-to-chunk-time: 600
   limit-only-fly: false
-  
+
 #Should mobs be nerfed to prevent over-breeding to reduce CPU usage (And possibly raise TPS)
 #When mobs are stuck too close, collisions are extremely intensive putting a pretty mean load on the server
 # -- 'max-mobs' means how many bably/adult animals are allowed within the 'check-radius'
@@ -47,53 +46,56 @@ mob-breeding-limiter:
   enabled: false
   max-mobs: 6
   check-radius: 15
-  
+
 #Should clearlag purge logs under /logs when the server starts?
-# -- days-old means how many days old can the log be to be deleted
+# -- 'days-old' means how many days old can the log be to be deleted
 log-purger:
   enabled: false
   days-old: 3
-  
+
 #What type of entities SHOULD NOT be removed while doing /lagg area?
 area-filter:
     - Itemframe
-    - Painting
+    - Minecart
     - Wolf
     - Villager
     - Horse
     - ARMOR_STAND
 
-#Should clearlag reset the config (more stable), or attempt to add the new paths into your config?
-# -- Puting this as false wont reset your config, but may cause bugs.. Still in testing!
+#Should clearlag reset the config, or attempt to update your config on updates
+# -- 'force-update' is whether or not clearlag will reset your config with a newer version
+# -- settings this to false will make clearlag update your config rather then resetting
 config-updater:
   force-update: false
- 
+
 #This limits the mob egg spawners so players cannot "overload" the server with them
-# -- 'check-radius' stands for the radius clearlag will check for nearby entities
+# -- 'check-radius' is the radius clearlag will check for nearby entities
 # -- 'max-mobs' is how many entities may be in the radius before the spawning is blocked
 mobegg-limiter:
   enabled: false
   check-radius: 8
   max-mobs: 5
- 
+
 #Disable new chunk generation, or just put a cap on how many can load at once.
-# -- THIS DOES NOT WORK WITH 1.6.4!
+#May cause many bugs with Spigot 1.8+, not recommended!
+# -- 'create-new-chunks' disables or enables chunk creation. false would disallow new chunks
+# -- !UNSTABLE ON SPIGOT BUILDS!
 chunk-limiter:
   enabled: false
   limit: 6000
   create-new-chunks: true
- 
-#This modifies not only the view of the mobs, but will also simplify how they spawn
-# -- Lower it is, the better your entity tick will be
+
+#This modifies the view range of entities
+# -- Lower it is, the better your entity tick will be and the more CPU cycles you'll save
 # -- If it's too high, expect bugs / lots of lag
 mob-range:
   enabled: false
   zombie: 30
   skeleton: 30
   creeper: 20
- 
+
 #How long should items/Mobs be left on the ground
-# -- Goes by seconds
+# -- live-time's go by ticks (20 ticks a second)
 live-time:
   enabled: false
   interval: 10
@@ -103,220 +105,193 @@ live-time:
   arrowkilltime: 15
   moblivetime: 600
   itemlivetime: 240
- 
-#Let clearlag control the spawning in ALL worlds? (Supports all plugins!)
-# -- This will also respect cancelations, unlike minecraft's native code
-custom-mobspawner:
-  enabled: false
-#How many times should clearlag attempt to find a safe location for the mob to spawn
-  max-tries: 50
-#(In seconds) how often should clearlag try to spawn mobs?
-  interval: 30
-#This is the radius around the player
-  radius: 30
-#This is the radius FROM the player (in blocks!)
-  radius-from: 7
-#How far should mobs spawn from eachother (NOT in blocks!!) (1,010 = around 10-20 blocks)
-  mob-radius: 1010
-#Should we keep trying to spawn a mob if a clear location isn't found
-  forcespawn: false
-#4 = nighttime, what light level should mobs spawn in
-  lightlevel: 4
-#Chance mobs will have armor/sword, 1 being diamond every time
-  armor-chance: 30 
-  mobs: #More types of a mob, more likely it'll spawn(ONLY IN NORMAL WORLDS!)
-    - zombie 5
-    - skeleton 3
-    - creeper
-    - enderman
-  animals: #More types of a mob, more likely it'll spawn(ONLY IN NORMAL WORLDS!)
-    - pig 4
-    - sheep 1
-    - cow 6
-    - chicken 2
-  
+
 #This option disallows the placement of too many tnt-minecarts
+# -- 'radius' is the radius clearlag will check for TNT-Minecarts
 tnt-minecart:
   enabled: false
   max: 2
   radius: 6
-  
-#This option reduces global dispenser rate
+
+#This option reduces global dispenser fire rate
+# -- 'time' is in milliseconds
 dispenser-reducer:
   enabled: false
   time: 100
-  
+
 #This option reduces the explosions of mass amounts of tnt, and reduces tnt lag
-tnt:
-  tnt-reducer: false
-  
+tnt-reducer:
+  enabled: false
+
 #This option reduces fire spread rate
+# -- 'time' is in milliseconds
 firespread-reducer:
   enabled: false
   time: 2000
-  
+
 #How many entities should one chunk be allowed to hold?
+# -- 'entities' lists all the entities that will be counted
+#     and possibly removed.
 chunk-entity-limiter:
   enabled: false
-  limit: 40
-  
+  limit: 10
+  entities:
+    - Squid
+    - Zombie
+    - Skeleton
+    - Creeper
+    - Chicken
+    - Pig
+    - Sheep
+    - Cow
+    - Horse
+  # - Pig liveTime=100 <- This mob will be REMOVED if it's been alive for 100 ticks (5 seconds)
+
+#How many mobs should be allowed to spawn globally
+# -- 'interval' is the check interval check the current spawn amounts
 spawn-limiter:
   enabled: false
   interval: 15
-  monsters: 300
+  mobs: 300
   animals: 300
-  
+
 #Meters your TPS, if it goes to low, run the commands you wrote below!
+# -- 'interval' is how often tps-meter will check the TPS
+# -- 'tps-trigger' is at what TPS the commands will be ran at
+# -- 'tps-recover' is at what TPS should the TPS be considered stable after 'tps-trigger' is executed
+# -- 'commands' lists what commands will be executed when tps-tigger is reached
+# -- 'recover-commands' lists what commands will be executed when tps-recover is reached
+# -- 'trigger-broadcast-message' specifies which message should be broadcasted when tps-trigger runs
+# -- 'recover-broadcast-message' specifies which message should be broadcasted when TPS recovers
+# -- 'broadcast-enabled' defines whether or not tps-meter should broadcast
 tps-meter:
   enabled: false
-  interval: 15 
+  trigger-broadcast-message: '&6[ClearLag] &cThe server is overloaded, executing lag-perventing measures'
+  recover-broadcast-message: '&6[ClearLag] &aThe server is no longer overloaded!'
+  broadcast-enabled: false
+  interval: 15
   tps-trigger: 14.0
+  tps-recover: 19.0
   commands:
     - 'lagg killmobs'
     - 'lagg clear'
-  
-#This is /lagg killmobs, put what you DON'T want removed! 
+    - 'lagg halt'
+  recover-commands:
+    - 'lagg halt'
+
+#This is /lagg killmobs, put what you DON'T want removed!
 # -- 'remove-named', when FALSE entities with custom names will NOT be removed
+# -- 'mob-filter' lists which mobs will be IGNORED during /lagg killmobs
 kill-mobs:
-   disable-build-wither: false
+   remove-named: false
    mob-filter:
    - Villager
    - Wolf
+#  - Pig !name="Test" <- This entity will filtered if the name does NOT equal "Test"
+#  - Zombie hasName <- This entity will be filtered if it HAS a name
    - ARMOR_STAND
    - Horse
-  
-#This takes care of mob spawners
-# -- max-spawn is the max entities that can be within the check-radius
-# -- check-radius is x/z radius, y-radius is y radius (up/down)
+
+#This nerfs mob-spawners (Natural and player-made)
+#-------------------------------------------------
+#This goes by chunks rather then spawners. This is to prevent
+#a large buildup of mob-spawners within a small region to "bypass"
+#your set limit. It also allows for keys to be generated more easily
+#increasing the performance
+# -- 'max-spawn' is the maximum mobs allowed to spawn by a mob-spawner
+# -- 'remove-mobs-on-chunk-unload' is whether or not Clearlag should remove
+# --  the mobs spawned by the mobspawner upon chunk unload (Highly Recommended)
 mobspawner:
   enabled: false
   max-spawn: 4
-  check-radius: 15
-  y-radius: 30
-  
-#No longer bugged! -- Dont use if you have CB++ or Spigot!
+  remove-mobs-on-chunk-unload: true
+
+#Dont use if you have CB++ or Spigot!
 item-merger:
   enabled: false
   radius: 6
-  
+
 #Auto-removal options
 # -- warnings works like this; time = the time warning should be given, msg = warning message at that time
 # -- NOTE: The below 'remove' section applies to this remover!
 # -- NOTE: Putting the interval to low will cause issues!
+# -- NOTE: To disable "warnings", set it to "warnings: []"
+# -- NOTE: bukkit.broadcast.user permission will allow users to see broadcasts (If not enabled by default)
+#
+#        !==[ All string values MUST be inside '']==!
+#
+# -- 'remove-entities' lists what entities should be REMOVED on removal
+# -- 'warnings' list warnings to be given out at specified times
 auto-removal:
   enabled: true
   broadcast-message: '&6[ClearLag] &aУдалено +RemoveAmount Объектов!'
-  broadcast-warning: true
+  broadcast-removal: true
   autoremoval-interval: 460
+  world-filter:
+  # - this_world <-This world will be ignored during removal!
+  boat: true
+  falling-block: true
+  experience-orb: true
+  painting: false
+  projectile: true
+  item: true
+  itemframe: false
+  minecart: true
+  primed-tnt: true
+  item-filter:
+  # - 264
+  # - 444 <-This item-id will be ignored during removal!
+  remove-entities:
+  # - cow <- This mob-type will be REMOVED during removal!
+  # - MINECART_MOB_SPAWNER
+  # - Pig liveTime=100 <- This mob will be REMOVED if it's been alive for 100 ticks (5 seconds)
+  # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
+  # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
         - 'time:400 msg:&4[ClearLag] &cВНИМАНИЕ удаление свободных объектов через &7+remaining &cсекунд!'
         - 'time:440 msg:&4[ClearLag] &cВНИМАНИЕ удаление свободных объектов через &7+remaining &cсекунд!'
-  
-#What should be removed during an auto-removal
-remove:
-  world-filter:
-    - this_world
-  broadcast-removal: true
-  boat: true
-  falling-block: true
-  experienceOrb: true
-  painting: true
-  projectile: true
-  item: true
-  itemframe: false
-  minecart: true
-  primed-tnt: true
-  arrow: true
-  snowball: true
-  fireball: true
-  ender-signal: true
-  item-filter:
-  # - 264
-  # - 265
-  # - 311
-  # - 312
-  # - 266
-  remove-mobs:
-  # - cow
- 
-#What should be removed during /lagg clear 
+
+#What should be removed during /lagg clear
 command-remove:
   world-filter:
-    - this_world
+  # - this_world <-This world will be ignored during removal!
   broadcast-removal: false
   boat: true
   falling-block: true
-  experienceOrb: true
-  painting: true
+  experience-orb: true
+  painting: false
   projectile: true
   item: true
   itemframe: false
   minecart: true
   primed-tnt: true
-  arrow: true
-  snowball: true
-  fireball: true
-  ender-signal: true
   item-filter:
-  # - 264
+  # - 222 <-This item-id will be ignored during removal!
   # - 265
-  # - 311
-  # - 312
-  # - 266
-  remove-mobs:
-  # - cow
-   
-check:
-  world-filter:
-    - this_world
-  boat: true
-  falling-block: true
-  experienceOrb: true
-  painting: true
-  projectile: true
-  item: true
-  itemframe: false
-  minecart: true
-  primed-tnt: true
-  arrow: true
-  snowball: true
-  fireball: true
-  ender-signal: true
-  item-filter:
-  # - 264
-  # - 265
-  # - 311
-  # - 312
-  # - 266
-  mobs:
-    creature: true
-    animals: true
-    monster: true
-   
+  remove-entities:
+  # - cow <- This mob-type will be REMOVED during removal!
+  # - MINECART_MOB_SPAWNER
+  # - Pig liveTime=100 <- This mob will be REMOVED if it's been alive for 100 ticks (5 seconds)
+  # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
+  # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
+
 limit:
-  enable-limit: false
+  enabled: false
   max: 1000
   check-interval: 60
   broadcast-message: '&6[ClearLag] &aДостигнут предел, удалено +RemoveAmount Объектов!'
   world-filter:
-    - this_world
+  # - this_world <-This world will be ignored during removal!
   broadcast-removal: true
   boat: true
   falling-block: true
-  experienceOrb: true
-  painting: true
+  experience-orb: true
+  painting: false
   projectile: true
   item: true
   itemframe: false
   minecart: true
   primed-tnt: true
-  arrow: true
-  snowball: true
-  fireball: true
-  ender-signal: true
   item-filter:
   # - 264
-  # - 265
-  # - 311
-  # - 312
-  # - 266
+  # - 232 <-This item-id will be ignored during removal!
