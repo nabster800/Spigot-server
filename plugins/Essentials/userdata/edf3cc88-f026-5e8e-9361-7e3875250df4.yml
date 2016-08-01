@@ -1,8 +1,8 @@
 lastAccountName: nabster
 timestamps:
-  login: 1470067965055
+  login: 1470069765746
   lastteleport: 1470066242295
-  logout: 1470068103197
+  logout: 1470069860036
 ipAddress: 127.0.0.1
 lastlocation:
   world: world_nether
@@ -13,11 +13,11 @@ lastlocation:
   pitch: 46.8
 logoutlocation:
   world: world
-  x: 163.11866131096684
+  x: 162.22799777563364
   y: 69.0
-  z: 112.05094738721651
-  yaw: 86.40082
-  pitch: 13.499973
+  z: 114.66444613353313
+  yaw: 177.7487
+  pitch: 8.249963
 afk: false
 homes:
   home:
