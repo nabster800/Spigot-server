@@ -6,7 +6,7 @@ groups:
       suffix: '&f'
     permissions:
     - modifyworld.*
-    - essentials.warp.list #Указывает можно ли посмотреть warp-список командой /warp.
+    - essentials.warps.* #Полный доступ к warp
     - essentials.pay #Передать деньги другому игроку.
     - essentials.balance #Проверить баланс игрока.
     - essentials.kits.start #стартовы сет
@@ -20,14 +20,13 @@ groups:
     - essentials.mail #Отправить сообщение игроку по почте.
     - essentials.msg #Отправить личное сообщение игроку на сервере.
     - essentials.motd #Показать сообщение дня.
-    - essentials.me
+    - essentials.me #Рассказать всем, что вы сейчас делаете.
     - essentials.list #Посмотреть онлайн сервера.
     - essentials.help #Показывает меню помощи по командам сервера.
     - essentials.afk #Отправляет сообщение в чат о том, что вы отошли.
     - essentials.kit #Выдает игроку набор. Редактировать их можно в конфиге плагина.
     - essentials.home #Телепорт домой.
     - essentials.sethome #Задает местоположение вашего дома.
-    - essentials.warp #Warps you to a pre-set location.
     - essentials.tpa #Спросить разрешение у игрока на телепорт к нему.
     - essentials.call #Спросить разрешение у игрока на телепорт к нему.
     - worldedit.selection.pos #Назначитьпозицию для выделения блок на котором вы стоите
@@ -37,7 +36,7 @@ groups:
     - worldedit.selection.shift #Переместить регион выбора на расстояние <amount> в направлении [direction].
     - worldedit.wand #Получить предмет для выделения (деревянный топор по умолчанию)
     - worldedit.wand.toggle #Вкл./откл. функциональность предмета для выделения
-    - worldguard.region.wand.*
+    - worldguard.region.wand #разрешает использовать топор для привата.
     - worldguard.region.list.own #Чтобы узнать информацию о регионе
     - worldguard.region.info.own.* #Чтобы узнать информацию о регионе
     - worldguard.region.claim #Сохраняем выделенный фрагмент участка
@@ -55,6 +54,7 @@ groups:
     - lift #разрешает игрокам пользоваться лифтом.
     - lift.change #разрешает игрокам менять расположение этажей.
     - scavenger.scavenge
+    - chairs.sit #Сесть на ступеньки
   moder:
     options:
       default: false
@@ -93,7 +93,6 @@ groups:
     - essentials.tp.others #Позволяет телепортировать других игроков
     - essentials.spawn.cooldown.bypass
     - essentials.teleport.cooldown.bypass
-    - essentials.warp.*
     - essentials.warp.overwrite.* #Позволяет перезаписывать все существующие warp's
     - essentials.setwarp #Определить новое местоположение.
     - essentials.clearinventory.others
