@@ -15,8 +15,6 @@ EssentialsChat — Плагин чата (RUS)
 
 EssentialsSpawn — Дополнение к Essentials (RUS)
 
-Lift — лифты
-
 Lokipost — защита от ям, столбов (RUS)
 
 MassiveCore — Нужен для некоторых плагинов (Перевод ненадо)
