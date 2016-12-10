@@ -9,7 +9,7 @@
 # 
 # IRC: #spigot @ irc.spi.gt ( http://www.spigotmc.org/pages/irc/ )
 # Forums: http://www.spigotmc.org/
-
+#
 config-version: 8
 messages:
   whitelist: You are not whitelisted on this server!
